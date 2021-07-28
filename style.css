@@ -81,4 +81,7 @@ footer p {
   .container {
     height: 70vh;
   }
+  footer {
+    position: fixed;
+  }
 }
