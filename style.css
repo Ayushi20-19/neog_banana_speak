@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0%;
+  font-family: "Kalam", cursive;
+  box-sizing: border-box;
 }
 
 .header {
@@ -18,24 +20,20 @@
   padding: 0.3rem 0rem;
 }
 #text-input {
-  /* position: relative; */
   padding-bottom: 1rem;
-  box-sizing: border-box;
   width: 50%;
   min-height: 20vh;
   margin-top: 2rem;
   font-size: large;
   font-family: inherit;
-  /* width: 60%;
-  height: 6rem;
-  margin-top: 1rem; */
 }
 .btn-translate {
   margin: 1rem;
-  background-color: yellow;
+  background-color: rgb(255, 255, 80);
   border: 0.1rem solid yellow;
   padding: 0.8rem 1.8rem;
   font-size: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgb(87, 87, 85);
 }
 .btn-translate:hover {
   margin: 1rem;
@@ -45,14 +43,14 @@
 }
 textarea {
   padding: 0.7rem 1rem;
+  box-shadow: inset 0.1rem 0.1rem 0.3rem rgb(87, 87, 85);
+  border: hidden;
 }
 #text-output {
-  width: 60%;
+  width: 50%;
   height: 5rem;
-  box-sizing: border-box;
-  width: 60%;
-  min-height: 20vh;
   margin-top: 0.4rem;
+  min-height: 7rem;
   font-size: large;
   font-family: inherit;
   overflow: hidden;
